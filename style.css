@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+img {
+  max-height: fit-content;
+}
+.picsize {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+#time {
+  position: absolute;
+  left: 10px;
+}
+
+
+.button-flex {
+  display: flex;
+  flex-direction: column;
+}
+.myButton {
+	box-shadow:inset 0px 0px 10px -1px #ffffcc;
+	background-color:#fcfc83;
+	border:1px solid #ffcc33;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 18px;
+	text-decoration:none;
+	text-shadow:-1px 2px 4px #ffcc33;
+  text-align: center;
+}
+.myButton:hover {
+	background-color:#ffcc33;
+  color:#666666;
+}
+.myButton:active {
+	top:1px;
+}
+
+
+/* @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100vw;
+  }
+} */
